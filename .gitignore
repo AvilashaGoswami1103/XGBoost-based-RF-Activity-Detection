@@ -1,0 +1,20 @@
+# Ignore raw and processed test data
+New_Test_Data_Noise/
+New_Test_Data_Noise_processed/
+New_Test_Data_Valid/
+New_Test_Data_Valid_processed/
+
+# Ignore noise test data
+noise_test_iq/
+Noise_test_processed/
+
+# Ignore training data
+Train_iq/
+Train_iq_preprocessed/
+
+# Ignore validation data
+valid_test_iq/
+valid_test_processed/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/

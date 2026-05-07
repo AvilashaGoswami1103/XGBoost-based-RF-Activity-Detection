@@ -1,0 +1,2 @@
+file,prediction,prob_no_drone,prob_drone
+sunofdm_O2_mcs2_g0.0dB_att22dB_freq864.0MHz_4_processed.npy,Drone,0.0013,0.9987
