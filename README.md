@@ -105,12 +105,12 @@ The pipeline trains an XGBoost classifier, validates performance through stratif
 ● Evaluation Metrics evaluation<br>
 ● Model Serialization
 ### Input and Output:
-● Input Dataset: Features_DroneRF_labeled.csv
+● Input Dataset: Features_DroneRF_labeled.csv<br>
 ● Output Dataset: drone_xgb_model.pkl -> for deployment and inference
 ### Dataset Splitting:
 The notebook uses train_test_split() for a 80/20 stratified split.
 ### Exploratory Data Analysis (EDA):
-● Feature distribution Analysis: generates histograms for every RF features to compare drone vs no-drone signals.
+● Feature distribution Analysis: generates histograms for every RF features to compare drone vs no-drone signals.<br>
 ● Correlation Analysis: to detect redundant features, understand feature relationships, identify multicollinearity.
 
 
