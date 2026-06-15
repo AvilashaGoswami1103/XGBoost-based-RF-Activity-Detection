@@ -1,4 +1,6 @@
 # XGBoost-based-RF-Activity-Detection
+End-to-end RF drone detection pipeline using IQ signal processing, feature engineering, and XGBoost machine learning.
+Project Files in order:
 ## 1. preprocess.ipynp: IQ Signal Preprocessing Pipeline
 Implements a high-performance preprocessing pipeline for Radio Frequency (RF) In-phase and Quadrature (IQ) data. Prepares raw RF recordings for downstream machine learning and signal analysis tasks.
 ### Key Features:
