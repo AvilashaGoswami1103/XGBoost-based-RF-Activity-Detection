@@ -111,7 +111,12 @@ The pipeline trains an XGBoost classifier, validates performance through stratif
 The notebook uses train_test_split() for a 80/20 stratified split.
 ### Exploratory Data Analysis (EDA):
 ● Feature distribution Analysis: generates histograms for every RF features to compare drone vs no-drone signals.<br>
-● Correlation Analysis: to detect redundant features, understand feature relationships, identify multicollinearity.
+● Correlation Analysis: to detect redundant features, understand feature relationships, identify multicollinearity. <br>
+
+| Evaluation Method                  | Accuracy | Precision | Recall  | F1 Score | ROC-AUC |
+| ---------------------------------- | -------- | --------- | ------- | -------- | ------- |
+| 5-Fold Stratified Cross Validation | 98.68%   | 98.68%    | 99.73%  | 99.20%   | 99.22%  |
+| 80/20 Hold-Out Test Set            | 97.80%   | 97.40%    | 100.00% | 98.68%   | 99.83%  |
 
 
 
